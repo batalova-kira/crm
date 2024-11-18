@@ -1,17 +1,10 @@
-import AddCompanyButton from './components/add-company-button';
-import ClientComponent from './components/client-component';
-import ServerComponent from './components/server-component';
-import CopyServerComponent from './components/server-component-copy';
+import AddCompanyButton from '@/app/components/add-company-button';
 
 export default function Home() {
   return (
     <main>
-      <h1 className="text-xl">Home page </h1>
+      <h1 className="text-xl">Home page</h1>
       <AddCompanyButton />
-      <ServerComponent />
-      <ClientComponent>
-        <CopyServerComponent />
-      </ClientComponent>
     </main>
   );
 }
